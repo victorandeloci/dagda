@@ -10,3 +10,5 @@ Vou tentar listar as branchs abaixo, só não prometo estar 100% atualizada *(va
   * Herança
 ### [Mobile](https://github.com/victorandeloci/dagda/tree/mobile)
   * Navegação
+ ### [BD](https://github.com/victorandeloci/dagda/tree/bd)
+  * Algumas Estruturas
