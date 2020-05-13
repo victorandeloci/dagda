@@ -1,16 +1,5 @@
 # dagda
 
-Vou tentar categorizar por diferentes cursos. Se estiver buscando algo, dê uma olhada em todas as branchs disponíveis. Provavelmente apenas o readme ficará na master
+## AOC (Conversor de Bases)
 
-Vou tentar listar as branchs abaixo, só não prometo estar 100% atualizada *(vale dar uma conferida [aqui](https://github.com/victorandeloci/dagda/branches))*
-
---
-
-### [POO](https://github.com/victorandeloci/dagda/tree/poo)
-  * Herança
-### [Mobile](https://github.com/victorandeloci/dagda/tree/mobile)
-  * Navegação
-### [BD](https://github.com/victorandeloci/dagda/tree/bd)
- * Algumas Estruturas
-### [Estrutura de Dados](https://github.com/victorandeloci/dagda/tree/estrutura-dados)
- * Exes Finais
+Projeto do app para converter bases numéricas finalizado em 2018 - *ainda possui alguns bugs, fica aí para quem quiser corrigir ;)*
