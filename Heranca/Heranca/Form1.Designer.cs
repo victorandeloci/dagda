@@ -33,6 +33,8 @@
             this.txtNumConta = new System.Windows.Forms.TextBox();
             this.txtSaldo = new System.Windows.Forms.TextBox();
             this.txtCredito = new System.Windows.Forms.TextBox();
+            this.btnColaborador = new System.Windows.Forms.Button();
+            this.btnGerente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCriarConta
@@ -73,11 +75,33 @@
             this.txtCredito.Size = new System.Drawing.Size(100, 20);
             this.txtCredito.TabIndex = 4;
             // 
+            // btnColaborador
+            // 
+            this.btnColaborador.Location = new System.Drawing.Point(303, 45);
+            this.btnColaborador.Name = "btnColaborador";
+            this.btnColaborador.Size = new System.Drawing.Size(117, 49);
+            this.btnColaborador.TabIndex = 5;
+            this.btnColaborador.Text = "Colaborador";
+            this.btnColaborador.UseVisualStyleBackColor = true;
+            this.btnColaborador.Click += new System.EventHandler(this.btnColaborador_Click);
+            // 
+            // btnGerente
+            // 
+            this.btnGerente.Location = new System.Drawing.Point(303, 100);
+            this.btnGerente.Name = "btnGerente";
+            this.btnGerente.Size = new System.Drawing.Size(117, 47);
+            this.btnGerente.TabIndex = 6;
+            this.btnGerente.Text = "Gerente";
+            this.btnGerente.UseVisualStyleBackColor = true;
+            this.btnGerente.Click += new System.EventHandler(this.btnGerente_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(261, 232);
+            this.ClientSize = new System.Drawing.Size(502, 215);
+            this.Controls.Add(this.btnGerente);
+            this.Controls.Add(this.btnColaborador);
             this.Controls.Add(this.txtCredito);
             this.Controls.Add(this.txtSaldo);
             this.Controls.Add(this.txtNumConta);
@@ -97,6 +121,8 @@
         private System.Windows.Forms.TextBox txtNumConta;
         private System.Windows.Forms.TextBox txtSaldo;
         private System.Windows.Forms.TextBox txtCredito;
+        private System.Windows.Forms.Button btnColaborador;
+        private System.Windows.Forms.Button btnGerente;
     }
 }
 

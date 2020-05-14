@@ -39,8 +39,9 @@ namespace Heranca
 
                 cEsp.Credito = credito;
 
-                cEsp.imprimirDados();
-                cEsp.imprimeCredito();
+                cEsp.Sacar(10f);
+
+                cEsp.ImprimirDados();
 
             } else {
 
@@ -50,9 +51,23 @@ namespace Heranca
                 cNorm.NomeCliente = nome;
                 cNorm.depositar(saldo);
 
-                cNorm.imprimirDados();
+                cNorm.Sacar(10f);
+
+                cNorm.ImprimirDados();
 
             }
+        }
+
+        private void btnColaborador_Click(object sender, EventArgs e)
+        {
+            Colaborador col = new Colaborador("João", "123456789", 100f);
+            col.CalcularPLR();
+        }
+
+        private void btnGerente_Click(object sender, EventArgs e)
+        {
+            Gerente ger = new Gerente("Maria", "987654321", 150f, "RP");
+            ger.CalcularPLR();
         }
     }
 }

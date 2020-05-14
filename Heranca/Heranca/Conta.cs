@@ -19,12 +19,15 @@ class Conta
         this.SaldoConta += valor;
     }
 
-    public void sacar(float valor)
+    public void Sacar(float valor)
     {
-        this.SaldoConta -= valor;
+        if(valor > this.SaldoConta)
+            throw new Exception("Saldo insuficiente");
+        else
+            this.SaldoConta -= valor;
     }
 
-    public void imprimirDados()
+    public void ImprimirDados()
     {
         Console.WriteLine("Número da Conta: " + this.NumConta);
         Console.WriteLine("Nome: " + this.NomeCliente);
