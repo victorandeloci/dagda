@@ -1,0 +1,10 @@
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Associacao\Associacao\bin\Debug\Associacao.exe.config
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Associacao\Associacao\bin\Debug\Associacao.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Associacao\Associacao\bin\Debug\Associacao.pdb
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Associacao\Associacao\obj\Debug\Associacao.csprojAssemblyReference.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Associacao\Associacao\obj\Debug\Associacao.Formulario.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Associacao\Associacao\obj\Debug\Associacao.Properties.Resources.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Associacao\Associacao\obj\Debug\Associacao.csproj.GenerateResource.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Associacao\Associacao\obj\Debug\Associacao.csproj.CoreCompileInputs.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Associacao\Associacao\obj\Debug\Associacao.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Associacao\Associacao\obj\Debug\Associacao.pdb
