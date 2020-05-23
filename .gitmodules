@@ -1,0 +1,6 @@
+[submodule "Faculdade"]
+	path = Faculdade
+	url = https://github.com/mateusfarinelli/Faculdade.git
+[submodule "revisor"]
+	path = revisor
+	url = https://github.com/Gigers/revisor.git
