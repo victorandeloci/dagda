@@ -8,7 +8,7 @@ A lista de branchs está abaixo, só não prometo estar 100% atualizada *(vale d
 
 ### [POO](https://github.com/victorandeloci/dagda/tree/poo)
   
-  <code>c#</code> <code>c#</code>
+  <code>c#</code>
   
   * Herança
   * Associação
