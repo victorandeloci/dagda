@@ -31,6 +31,8 @@
             this.btnFuncionario = new System.Windows.Forms.Button();
             this.btnPosicao = new System.Windows.Forms.Button();
             this.btnArtigo = new System.Windows.Forms.Button();
+            this.btnVendedor = new System.Windows.Forms.Button();
+            this.btnAeronaveTrecho = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnFuncionario
@@ -63,11 +65,33 @@
             this.btnArtigo.UseVisualStyleBackColor = true;
             this.btnArtigo.Click += new System.EventHandler(this.btnArtigo_Click);
             // 
+            // btnVendedor
+            // 
+            this.btnVendedor.Location = new System.Drawing.Point(86, 292);
+            this.btnVendedor.Name = "btnVendedor";
+            this.btnVendedor.Size = new System.Drawing.Size(117, 46);
+            this.btnVendedor.TabIndex = 3;
+            this.btnVendedor.Text = "Vendedor - Cliente";
+            this.btnVendedor.UseVisualStyleBackColor = true;
+            this.btnVendedor.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnAeronaveTrecho
+            // 
+            this.btnAeronaveTrecho.Location = new System.Drawing.Point(86, 371);
+            this.btnAeronaveTrecho.Name = "btnAeronaveTrecho";
+            this.btnAeronaveTrecho.Size = new System.Drawing.Size(117, 46);
+            this.btnAeronaveTrecho.TabIndex = 4;
+            this.btnAeronaveTrecho.Text = "Aeronave - Trecho";
+            this.btnAeronaveTrecho.UseVisualStyleBackColor = true;
+            this.btnAeronaveTrecho.Click += new System.EventHandler(this.btnAeronaveTrecho_Click);
+            // 
             // Formulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(328, 413);
+            this.ClientSize = new System.Drawing.Size(296, 486);
+            this.Controls.Add(this.btnAeronaveTrecho);
+            this.Controls.Add(this.btnVendedor);
             this.Controls.Add(this.btnArtigo);
             this.Controls.Add(this.btnPosicao);
             this.Controls.Add(this.btnFuncionario);
@@ -82,6 +106,8 @@
         private System.Windows.Forms.Button btnFuncionario;
         private System.Windows.Forms.Button btnPosicao;
         private System.Windows.Forms.Button btnArtigo;
+        private System.Windows.Forms.Button btnVendedor;
+        private System.Windows.Forms.Button btnAeronaveTrecho;
     }
 }
 

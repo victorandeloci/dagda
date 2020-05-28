@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF01E502-C21B-4717-91AA-4C99E1B37481}</ProjectGuid>
+    <ProjectGuid>{F3A11D3D-6AA1-406A-BF94-8E869C2BBE6B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Associacao</RootNamespace>
-    <AssemblyName>Associacao</AssemblyName>
+    <RootNamespace>AssociacaoBidirecional</RootNamespace>
+    <AssemblyName>AssociacaoBidirecional</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,25 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aeronave.cs" />
-    <Compile Include="Artigo.cs" />
-    <Compile Include="Autor.cs" />
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Computador.cs" />
+    <Compile Include="Estado.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funcionario.cs" />
-    <Compile Include="Jogador.cs" />
-    <Compile Include="Posicao.cs" />
+    <Compile Include="Governador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tablet.cs" />
-    <Compile Include="TrechoVoo.cs" />
-    <Compile Include="Vendedor.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

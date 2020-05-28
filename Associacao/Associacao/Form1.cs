@@ -75,5 +75,35 @@ namespace Associacao
             artigo.imprimirDados();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Vendedor vendedor = new Vendedor();
+            vendedor.codigo = 100;
+            vendedor.nome = "Aragorn";
+
+            Cliente cliente = new Cliente();
+            cliente.nome = "C3PO";
+            cliente.cidade = "Vila dos Wookies (?)";
+
+            vendedor.Clientes.Add(cliente);
+
+            vendedor.imprimirDados();
+        }
+
+        private void btnAeronaveTrecho_Click(object sender, EventArgs e)
+        {
+            TrechoVoo trecho = new TrechoVoo();
+            trecho.origem = "Terra Média";
+            trecho.destino = "Vulcan";
+
+            Aeronave aero = new Aeronave();
+            aero.modelo = "C3PO";
+            aero.codigo = 100;
+
+            aero.Trechos.Add(trecho);
+
+            aero.imprimirDados();
+        }
     }
 }

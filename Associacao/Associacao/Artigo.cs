@@ -12,7 +12,11 @@ public class Artigo
 
     private Autor[] autores = new Autor[3];
 
-    public Autor[] Autores { get => autores; set => autores = value; }
+    public Autor[] Autores {
+
+        get => autores;
+        set => autores = value; 
+    }
 
     public void imprimirDados()
     {
@@ -21,8 +25,11 @@ public class Artigo
 
         for(int i = 0; i < 3; i++)
         {
-            Console.WriteLine("\t Código: " + Autores[i].codigo);
-            Console.WriteLine("\t Nome: " + Autores[i].nome);
+            if(this.Autores[i] != null)
+            {
+                Console.WriteLine("\t Código: " + Autores[i].codigo);
+                Console.WriteLine("\t Nome: " + Autores[i].nome);
+            }
         }
     }
 }
