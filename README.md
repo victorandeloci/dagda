@@ -9,6 +9,7 @@ A lista de branchs está abaixo, só não prometo estar 100% atualizada *(vale d
 ### [POO](https://github.com/victorandeloci/dagda/tree/poo)
   * Herança
   * Associação
+  * Associação Bidirecional
 ### [Mobile](https://github.com/victorandeloci/dagda/tree/mobile)
   * Navegação
   * ListViews
