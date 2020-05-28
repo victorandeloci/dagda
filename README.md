@@ -7,19 +7,42 @@ A lista de branchs está abaixo, só não prometo estar 100% atualizada *(vale d
 ## Branchs
 
 ### [POO](https://github.com/victorandeloci/dagda/tree/poo)
+  
+  <code>c#</code> <code>c#</code>
+  
   * Herança
   * Associação
   * Associação Bidirecional
+  
 ### [Mobile](https://github.com/victorandeloci/dagda/tree/mobile)
+  
+  <code>flutter</code> <code>dart</code> <code>android</code> <code>ios</code>
+  
   * Navegação
   * ListViews
+  
 ### [BD](https://github.com/victorandeloci/dagda/tree/bd)
+  
+  <code>SQL</code>
+  
   * Algumas Estruturas
+  
 ### [Estrutura de Dados](https://github.com/victorandeloci/dagda/tree/estrutura-dados)
-  * Exes Finais
+  
+  <code>cpp</code>
+  
+  * Exes Finais  
+  
 ### [AOC](https://github.com/victorandeloci/dagda/tree/aoc)
+  
+  <code>android</code> <code>java</code>
+  
   * Conversor de Bases
+  
 ### [Engenharia de Software](https://github.com/victorandeloci/dagda/tree/eng-soft)
+  
+  <code>uml</code>
+  
   * Alguns diagramas
 
 ## Outros repositórios
