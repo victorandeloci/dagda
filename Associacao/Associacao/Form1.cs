@@ -87,6 +87,8 @@ namespace Associacao
             cliente.cidade = "Vila dos Wookies (?)";
 
             vendedor.Clientes.Add(cliente);
+            vendedor.Clientes.Add(cliente);
+            vendedor.Clientes.Add(cliente);
 
             vendedor.imprimirDados();
         }
@@ -104,6 +106,26 @@ namespace Associacao
             aero.Trechos.Add(trecho);
 
             aero.imprimirDados();
+        }
+
+        private void btnReuniaoFuncionario_Click(object sender, EventArgs e)
+        {
+            Funcionario gandalf = new Funcionario();
+            gandalf.codigo = 100;
+            gandalf.nome = "Gandalf";
+
+            Funcionario madeline = new Funcionario();
+            madeline.codigo = 200;
+            madeline.nome = "Madeline";
+
+            Reuniao reun = new Reuniao();
+            reun.titulo = "A Sociedade da Montanha";
+            reun.horario = new DateTime();
+
+            reun.Participantes.Add(gandalf);
+            reun.Participantes.Add(madeline);
+
+            reun.imprimirDados();
         }
     }
 }

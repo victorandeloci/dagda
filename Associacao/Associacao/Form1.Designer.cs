@@ -33,6 +33,7 @@
             this.btnArtigo = new System.Windows.Forms.Button();
             this.btnVendedor = new System.Windows.Forms.Button();
             this.btnAeronaveTrecho = new System.Windows.Forms.Button();
+            this.btnReuniaoFuncionario = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnFuncionario
@@ -47,7 +48,7 @@
             // 
             // btnPosicao
             // 
-            this.btnPosicao.Location = new System.Drawing.Point(86, 134);
+            this.btnPosicao.Location = new System.Drawing.Point(86, 157);
             this.btnPosicao.Name = "btnPosicao";
             this.btnPosicao.Size = new System.Drawing.Size(117, 46);
             this.btnPosicao.TabIndex = 1;
@@ -57,7 +58,7 @@
             // 
             // btnArtigo
             // 
-            this.btnArtigo.Location = new System.Drawing.Point(86, 210);
+            this.btnArtigo.Location = new System.Drawing.Point(86, 209);
             this.btnArtigo.Name = "btnArtigo";
             this.btnArtigo.Size = new System.Drawing.Size(117, 46);
             this.btnArtigo.TabIndex = 2;
@@ -67,7 +68,7 @@
             // 
             // btnVendedor
             // 
-            this.btnVendedor.Location = new System.Drawing.Point(86, 292);
+            this.btnVendedor.Location = new System.Drawing.Point(86, 261);
             this.btnVendedor.Name = "btnVendedor";
             this.btnVendedor.Size = new System.Drawing.Size(117, 46);
             this.btnVendedor.TabIndex = 3;
@@ -77,7 +78,7 @@
             // 
             // btnAeronaveTrecho
             // 
-            this.btnAeronaveTrecho.Location = new System.Drawing.Point(86, 371);
+            this.btnAeronaveTrecho.Location = new System.Drawing.Point(86, 313);
             this.btnAeronaveTrecho.Name = "btnAeronaveTrecho";
             this.btnAeronaveTrecho.Size = new System.Drawing.Size(117, 46);
             this.btnAeronaveTrecho.TabIndex = 4;
@@ -85,11 +86,22 @@
             this.btnAeronaveTrecho.UseVisualStyleBackColor = true;
             this.btnAeronaveTrecho.Click += new System.EventHandler(this.btnAeronaveTrecho_Click);
             // 
+            // btnReuniaoFuncionario
+            // 
+            this.btnReuniaoFuncionario.Location = new System.Drawing.Point(86, 105);
+            this.btnReuniaoFuncionario.Name = "btnReuniaoFuncionario";
+            this.btnReuniaoFuncionario.Size = new System.Drawing.Size(117, 46);
+            this.btnReuniaoFuncionario.TabIndex = 5;
+            this.btnReuniaoFuncionario.Text = "Reuniao - Funcionário";
+            this.btnReuniaoFuncionario.UseVisualStyleBackColor = true;
+            this.btnReuniaoFuncionario.Click += new System.EventHandler(this.btnReuniaoFuncionario_Click);
+            // 
             // Formulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(296, 486);
+            this.Controls.Add(this.btnReuniaoFuncionario);
             this.Controls.Add(this.btnAeronaveTrecho);
             this.Controls.Add(this.btnVendedor);
             this.Controls.Add(this.btnArtigo);
@@ -108,6 +120,7 @@
         private System.Windows.Forms.Button btnArtigo;
         private System.Windows.Forms.Button btnVendedor;
         private System.Windows.Forms.Button btnAeronaveTrecho;
+        private System.Windows.Forms.Button btnReuniaoFuncionario;
     }
 }
 
