@@ -1,0 +1,10 @@
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoTernaria\AssociacaoTernaria\bin\Debug\AssociacaoTernaria.exe.config
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoTernaria\AssociacaoTernaria\bin\Debug\AssociacaoTernaria.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoTernaria\AssociacaoTernaria\bin\Debug\AssociacaoTernaria.pdb
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoTernaria\AssociacaoTernaria\obj\Debug\AssociacaoTernaria.csprojAssemblyReference.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoTernaria\AssociacaoTernaria\obj\Debug\AssociacaoTernaria.Form1.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoTernaria\AssociacaoTernaria\obj\Debug\AssociacaoTernaria.Properties.Resources.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoTernaria\AssociacaoTernaria\obj\Debug\AssociacaoTernaria.csproj.GenerateResource.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoTernaria\AssociacaoTernaria\obj\Debug\AssociacaoTernaria.csproj.CoreCompileInputs.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoTernaria\AssociacaoTernaria\obj\Debug\AssociacaoTernaria.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoTernaria\AssociacaoTernaria\obj\Debug\AssociacaoTernaria.pdb
