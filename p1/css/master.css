@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Titillium+Web:wght@200&display=swap');
+
+html {
+  padding: 0;
+}
+
+body {
+  background-color: #2a2a2a;
+  color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Anton', sans-serif;
+  color: #ccc;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+  nav .logo {
+    width: 8rem;
+  }
+  nav ul {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+    nav ul li {
+      list-style: none;
+      margin: 0 2rem;
+    }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+  .container h2 {
+    color: #9966ff;
+  }
+    .games {
+      display: flex;
+      justify-content: space-between;
+    }
+      .game-item {
+        width: 24%;
+      }
+        .game-item img {
+          width: 100%;
+          border-radius: .5rem;
+        }
+
+video {
+  width: 100%;
+}
+
+.form-container {
+  width: 50%;
+}
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+    form input, form select {
+      width: 45%;
+      margin-bottom: .5rem;
+    }
+      form input[type="radio"] {
+        width: 2rem;
+      }
+    form textarea {
+      width: 100%;
+      height: 15rem;
+    }
+    form input, form select, form textarea {
+      padding: 1rem;
+      color: #fff;
+      background-color: #4b4b4b;
+    }
+    form .submit {
+      margin-left: 25%;
+      margin-top: 2rem;
+    }
+    .radio-inputs {
+      display: flex;
+      align-items: center;
+    }
+
+footer {
+  background-color: #1c1c1c;
+  width: 100%;
+  padding: 2rem 0;
+}
