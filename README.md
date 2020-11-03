@@ -44,6 +44,12 @@ A lista de branchs está abaixo, só não prometo estar 100% atualizada *(vale d
   <code>uml</code>
   
   * Alguns diagramas
+  
+### [Segurança da Informação](https://github.com/victorandeloci/dagda/tree/seguranca)
+
+  <code>rsa</code> <code>php</code>
+  
+  * Algorítmo de criptografia RSA em PHP7
 
 ## Outros repositórios
 
