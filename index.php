@@ -13,8 +13,8 @@
     $messageInNumbers[] = (ord(strtoupper($letter)) - ord('A') + 1);
   }
 
-  $p = 5;
-  $q = 3;
+  $p = 7;
+  $q = 5;
 
   $n = $p * $q;
   $z = ($p - 1) * ($q - 1);
@@ -53,7 +53,13 @@
 
   $cryptedMessage = [];
   foreach ($messageInNumbers as $num)
-    $cryptedMessage[] = pow($num, $e) % $n;
+    $cryptedMessage[] = gmp_pow($num, $e) % $n;
+
+  // ========== DECRYPTION ==========
+
+  $decryptedNumbers = [];
+  foreach ($cryptedMessage as $crypt)
+    $decryptedNumbers[] = gmp_pow($crypt, $d) % $n;
 
   // ========== OUTPUT ==========
 
@@ -61,15 +67,23 @@
 
   echo 'P: ' . $p . '<br>';
   echo 'Q: ' . $q . '<br>';
-
   echo 'N: ' . $n . '<br>';
   echo 'Z: ' . $z . '<br>';
-
   echo 'D: ' . $d . '<br>';
   echo 'E: ' . $e . '<br>';
+
+  echo '<h3>Mensagem Original:</h3>';
+
+  foreach ($messageInNumbers as $key => $num)
+    echo $num . ' => <b>' . $messageChars[$key] . '</b><br>';
 
   echo '<h3>Mensagem Encriptada:</h3>';
 
   foreach ($cryptedMessage as $crypt)
-    echo $crypt;
-  echo '<br>';
+    echo $crypt . '<br>';
+
+  echo '<h3>Mensagem Decriptada:</h3>';
+
+  $alphabet = range('A', 'Z');
+  foreach ($decryptedNumbers as $decrypt)
+    echo $decrypt . ' => <b>' . $alphabet[gmp_intval($decrypt) - 1] . '</b><br>';
