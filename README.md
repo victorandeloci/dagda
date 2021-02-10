@@ -50,7 +50,3 @@ A lista de branchs está abaixo, só não prometo estar 100% atualizada *(vale d
   <code>rsa</code> <code>php</code>
   
   * Algorítmo de criptografia RSA em PHP7
-
-## Outros repositórios
-
-Vou listar outros repositórios com um conteúdo semelhante a esse, geralmente relacionados a faculdade também. Estão listados aqui e linkados como submodulos.
