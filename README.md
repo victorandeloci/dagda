@@ -1,10 +1,10 @@
-# dagda
+# Dagda
 
-Vou tentar categorizar por diferentes cursos. Se estiver buscando algo, dê uma olhada em todas as branchs disponíveis.
+Esse repositório está categorizado por diferentes cursos, um para cada **branch**. Se estiver buscando algo, dê uma olhada em todas as branchs disponíveis.
 
 A lista de branchs está abaixo, só não prometo estar 100% atualizada *(vale dar uma conferida [aqui](https://github.com/victorandeloci/dagda/branches))*
 
-## Branchs
+## Cursos / Branchs
 
 ### [POO](https://github.com/victorandeloci/dagda/tree/poo)
   
@@ -50,3 +50,9 @@ A lista de branchs está abaixo, só não prometo estar 100% atualizada *(vale d
   <code>rsa</code> <code>php</code>
   
   * Algorítmo de criptografia RSA em PHP7
+
+### [Tópicos Especiais](https://github.com/victorandeloci/dagda/tree/topicos-especiais)
+
+  <code>python</code>
+  
+  * Exemplos e exercícios de aula
