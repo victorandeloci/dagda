@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PY BOY ABOUT</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="96x96" href="{% static 'img/favicon-96x96.png' %}">
+
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+	<script type="text/javascript" src="{% static 'js/main.js' %}" defer></script>
+</head>
+<body class="screen">
+	<header>
+		<nav>
+			<a href="/app">HOME</a>
+			<a href="/about">ABOUT</a>
+			<a href="/register_api">REGISTER API</a>
+			<a href="http://127.0.0.1:8000/">EXIT</a>
+		</nav>
+	</header>
+	<main>
+		<section id="about">
+			<div class="content">
+				<h1>ABOUT API SCRIBE</h1>
+			<h2><p>Software developed for API documentation</p></h2>
+			</div>
+			<div class="us">
+				<figure>
+					<img src="{% static 'img/victorandeloci.png' %}">
+					<p>Victor Andeloci - Back End</p>
+				</figure>
+				<figure>
+					<img src="{% static 'img/pedrowelbert.png' %}">
+					<p>Pedro Welbert - Front End</p>
+				</figure>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>
+			Created with love! by:
+			<a href="https://valkyriatech.com.br/">ValkyriaTech</a>
+		</p>
+	</footer>
+</body>
+</html>

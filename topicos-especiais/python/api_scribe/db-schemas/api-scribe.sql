@@ -1,0 +1,29 @@
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
+  `id` INTEGER PRIMARY KEY AUTO_INCREMENT,
+  `email` VARCHAR(255) UNIQUE NOT NULL,
+  `password` VARCHAR(255) NOT NULL
+);
+
+DROP TABLE IF EXISTS `api`;
+CREATE TABLE `api` (
+  `id` INTEGER PRIMARY KEY AUTO_INCREMENT,
+  `name` VARCHAR(255) UNIQUE NOT NULL,
+  `owner_id` INTEGER NOT NULL
+);
+
+DROP TABLE IF EXISTS `action`;
+CREATE TABLE `action` (
+  `id` INTEGER PRIMARY KEY AUTO_INCREMENT,
+  `name` VARCHAR(255) NOT NULL,
+  `api_id` INTEGER NOT NULL,
+  `path` VARCHAR(255),
+  `parameters` TEXT,
+  `response` TEXT
+);
+
+ALTER TABLE `api`
+ADD FOREIGN KEY (`owner_id`) REFERENCES `user` (`id`);
+
+ALTER TABLE `action`
+ADD FOREIGN KEY (`api_id`) REFERENCES `api` (`id`);

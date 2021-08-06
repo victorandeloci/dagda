@@ -1,0 +1,27 @@
+/*
+  Theme Name: PIP PYTHON BOY
+  Author: Valkyria Tech
+  Author URI: https://valkyriatech.com.br
+  Version: 1.0.0
+*/
+
+@font-face {
+  font-family: Fira Mono;
+  src: url('../fonts/FiraMono-Regular.ttf');
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Mono';
+}
+
+a:link {
+  text-decoration: none;
+}

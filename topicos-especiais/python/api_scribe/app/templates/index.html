@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PY BOY</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="96x96" href="{% static 'img/favicon-96x96.png' %}">
+
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+	<script type="text/javascript" src="{% static 'js/main.js' %}" defer></script>
+</head>
+<body class="screen">
+	<header>
+		<nav></nav>
+	</header>
+	<main>
+		<section>
+			<figure class="logo"></figure>
+			<div class="login-area">
+				<fieldset>
+					<legend align="right">API-SCRIBE</legend>
+					<form id="loginForm" class="login-elements">
+						<div class="first">
+							<input type="mail" name="mail" placeholder="mail" required>
+							<input type="password" name="password" placeholder="password" required>
+						</div>
+						<div class="second">
+							<button class="btn" name="login_send">Login</button>
+							<button class="btn" id="register">Register</button>
+						</div>
+					</form>
+				</fieldset>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>
+			Created with love! by:
+			<a href="https://valkyriatech.com.br/">ValkyriaTech</a>
+		</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,1 @@
+[{"id": 5, "name": "Shield", "actions": [{"id": 4, "name": "getApps", "path": "/get_apps", "parameters": "{\"boolean\": true,\"color\": \"gold\",\"null\": null,\"number\": 123}", "response": "{\"status\": true}"}]}]
