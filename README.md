@@ -54,10 +54,11 @@ Esse repositório está categorizado por diferentes cursos. Se estiver buscando 
   <code>python</code>
   
   * Exemplos e exercícios de aula
+  * API Scribe (Não finalizado)
 
 
 ### [Web](https://github.com/victorandeloci/dagda/tree/master/web)
 
-  <code>HTML, CSS e C#</code>
+  <code>HTML</code> <code>CSS</code> <code>C#</code>
   
   * Provas e trabalhos
