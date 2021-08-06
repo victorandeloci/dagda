@@ -1,0 +1,10 @@
+D:\Fatec\4_semestre\POO\Shield-CSharp\AcademiaPOO\obj\Debug\AcademiaPOO.csprojAssemblyReference.cache
+D:\Fatec\4_semestre\POO\Shield-CSharp\AcademiaPOO\obj\Debug\AcademiaPOO.Properties.Resources.resources
+D:\Fatec\4_semestre\POO\Shield-CSharp\AcademiaPOO\obj\Debug\AcademiaPOO.csproj.GenerateResource.cache
+D:\Fatec\4_semestre\POO\Shield-CSharp\AcademiaPOO\obj\Debug\AcademiaPOO.csproj.CoreCompileInputs.cache
+D:\Fatec\4_semestre\POO\Shield-CSharp\AcademiaPOO\bin\Debug\AcademiaPOO.exe.config
+D:\Fatec\4_semestre\POO\Shield-CSharp\AcademiaPOO\bin\Debug\AcademiaPOO.exe
+D:\Fatec\4_semestre\POO\Shield-CSharp\AcademiaPOO\bin\Debug\AcademiaPOO.pdb
+D:\Fatec\4_semestre\POO\Shield-CSharp\AcademiaPOO\obj\Debug\AcademiaPOO.academiaPOO.resources
+D:\Fatec\4_semestre\POO\Shield-CSharp\AcademiaPOO\obj\Debug\AcademiaPOO.exe
+D:\Fatec\4_semestre\POO\Shield-CSharp\AcademiaPOO\obj\Debug\AcademiaPOO.pdb

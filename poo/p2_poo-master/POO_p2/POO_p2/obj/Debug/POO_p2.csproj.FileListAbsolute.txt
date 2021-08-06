@@ -1,0 +1,10 @@
+C:\Users\Victor Andeloci\Documents\Fatec\poo\p2_poo\POO_p2\POO_p2\bin\Debug\POO_p2.exe.config
+C:\Users\Victor Andeloci\Documents\Fatec\poo\p2_poo\POO_p2\POO_p2\bin\Debug\POO_p2.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\p2_poo\POO_p2\POO_p2\bin\Debug\POO_p2.pdb
+C:\Users\Victor Andeloci\Documents\Fatec\poo\p2_poo\POO_p2\POO_p2\obj\Debug\POO_p2.csprojAssemblyReference.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\p2_poo\POO_p2\POO_p2\obj\Debug\POO_p2.formPOO.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\p2_poo\POO_p2\POO_p2\obj\Debug\POO_p2.Properties.Resources.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\p2_poo\POO_p2\POO_p2\obj\Debug\POO_p2.csproj.GenerateResource.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\p2_poo\POO_p2\POO_p2\obj\Debug\POO_p2.csproj.CoreCompileInputs.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\p2_poo\POO_p2\POO_p2\obj\Debug\POO_p2.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\p2_poo\POO_p2\POO_p2\obj\Debug\POO_p2.pdb

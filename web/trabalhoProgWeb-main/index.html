@@ -1,0 +1,126 @@
+<!-- Faculdade de Tecnologia de Ribeirão Preto -->
+<!-- Centro Paula Souza -->
+<!-- Programação WEB -->
+<!-- Prof. Dr. Ricardo Luis Balieiro -->
+<!-- Discente: Pedro Welbert da Silva Pereira -->
+
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trabalho 01 - Programação WEB</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#coffee">Café Pobr's</a></li>
+				<li><a href="#sport">Esporte Spy</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="coffee">
+			<h2>Café Pobr's</h2>
+			<h5>Cardápio</h5>
+			<div class="row">
+				<div class="column">
+					<a href="./assets/pages/coffee01.html">
+						<img src="./assets/Pictures/Cafe01.jpg">
+						<h6>Aroma Caseiro</h6>
+					</a>
+				</div>
+				<div class="column">
+					<a href="./assets/pages/coffee02.html">
+						<img src="./assets/Pictures/Cafe02.jpg">
+						<h6>Café com Leite</h6>
+					</a>
+				</div>	
+				<div class="column">
+					<a href="./assets/pages/coffee03.html">
+						<img src="./assets/Pictures/Cafe03.jpg">
+						<h6>Minas Cappuccino</h6>
+					</a>
+				</div>	
+				<div class="column">
+					<a href="./assets/pages/coffee04.html">
+						<img src="./assets/Pictures/Cafe04.jpg">
+						<h6>Coração Crescente</h6>
+					</a>
+				</div>			
+			</div>	
+		</section>
+		<section id="space"></section>
+		<section id="sport">
+			<h2>Esporte Spy</h2>
+			<div class="row-1 border">
+				<div class="column-1">
+					<div class="jaqueta-grande">
+						<figure></figure>
+					</div>
+				</div>
+				<div class="column-2">
+					<div class="row-1-1">
+						<div class="column-2-1">
+							<div class="row-1-1-1">
+								<div class="jaqueta-modelo">
+									<figure></figure>
+								</div>
+							</div>
+							<div class="row-1-1-2">
+								<div class="jaqueta-color">
+									<figure></figure>
+								</div>
+							</div>
+						</div>
+						<div class="column-2-2">
+							<div class="row-1-1-3">
+								<div class="description-jaqueta">
+									<p>Jaqueta Bomber UG com forro xadrez - Azul R$ 119,90 ou 10x de R$11,99</p>
+								</div>
+							</div>
+							<div class="row-1-1-4">
+								<div class="options">
+									<label for="jaqueta">Tamanho:</label>
+									<select name="jaqueta">
+										<option value="Grande">Grande</option>
+										<option value="Médio">Médio</option>
+										<option value="Pequeno">Pequeno</option>
+									</select>
+								</div>
+								<div class="options">
+									<label>Quantidade</label>
+									<input type="number" name="qtd" placeholder="0" min="1" max="5" step="1">
+								</div>
+								<button class="button">Efetuar Pagamento</button>
+							</div>
+						</div>
+					</div>
+					<div class="row-1-2">
+						<div class="text">
+							<h4>Entrega Express</h4>
+							<p>Estima de entrega entre 3-5 dias.</p>
+						</div>
+						<div class="text">
+							<h4>10 vezes sem juros</h4>
+							<p>Parcele em até 10 vezes sem juros.</p>
+						</div>
+						<div class="text">
+							<h4>7 dias corridos <span>para a troca e devolução</span></h4>
+							<p>Produtos Originais</p>
+						</div>
+						<img src="./assets/Pictures/pagamentos.png">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>Desenvolvido por Pedro Welbert - Programação Web / FATEC RP - CPS</p>
+	</footer>
+</body>
+</html>
