@@ -9,18 +9,20 @@ function docReady(fn) {
 }
 
 docReady(function() {
+	
+	var site_url = window.location.href;
 
 	let alvo = document.getElementById('alvo');
 	let encrypted = document.getElementById('encrypted');
 	let decrypted = document.getElementById('decrypted');
-  let varsContainer = document.getElementById('vars');
+	let varsContainer = document.getElementById('vars');
 	let send = document.getElementById('send');
 
 	send.addEventListener('click', function(){
 		let message = alvo.value;
 
 		let request = new XMLHttpRequest();
-		  request.open('GET', 'http://localhost/seguranca/encryption.php?message=' + message , true);
+		  request.open('GET', site_url + 'encryption.php?message=' + message , true);
 		  request.onload = function() {
 		    if (this.status >= 200 && this.status < 400) {
 
