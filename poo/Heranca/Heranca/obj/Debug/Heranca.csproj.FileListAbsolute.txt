@@ -1,0 +1,20 @@
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca\Heranca\bin\Debug\Heranca.exe.config
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca\Heranca\bin\Debug\Heranca.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca\Heranca\bin\Debug\Heranca.pdb
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca\Heranca\obj\Debug\Heranca.csprojAssemblyReference.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca\Heranca\obj\Debug\Heranca.Form1.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca\Heranca\obj\Debug\Heranca.Properties.Resources.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca\Heranca\obj\Debug\Heranca.csproj.GenerateResource.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca\Heranca\obj\Debug\Heranca.csproj.CoreCompileInputs.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca\Heranca\obj\Debug\Heranca.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca\Heranca\obj\Debug\Heranca.pdb
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca - Conta\Heranca\bin\Debug\Heranca.exe.config
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca - Conta\Heranca\bin\Debug\Heranca.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca - Conta\Heranca\bin\Debug\Heranca.pdb
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca - Conta\Heranca\obj\Debug\Heranca.csprojAssemblyReference.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca - Conta\Heranca\obj\Debug\Heranca.Form1.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca - Conta\Heranca\obj\Debug\Heranca.Properties.Resources.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca - Conta\Heranca\obj\Debug\Heranca.csproj.GenerateResource.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca - Conta\Heranca\obj\Debug\Heranca.csproj.CoreCompileInputs.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca - Conta\Heranca\obj\Debug\Heranca.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Heranca - Conta\Heranca\obj\Debug\Heranca.pdb

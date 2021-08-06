@@ -1,0 +1,227 @@
+/*Faculdade de Tecnologia de Ribeirão Preto*/
+/*Centro Paula Souza*/
+/*Segurança da Informação*/
+/*Prof. Carlos Danilo Gaioli Euzébio*/
+/*Dicentes: Victor Silva Andeloci e Pedro Welbert da Silva Pereira*/
+
+@font-face {
+  font-family: Fairview;
+  src: url("../fonts/Fairview_Regular.ttf");
+}
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: Fairview;
+}
+
+:root{
+	--azul: #1f015b;
+	--rosa: #a3214f;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: Fairview;
+	overflow: hidden;
+}
+
+::placeholder {
+  color: var(--rosa);
+  opacity: 1; /* Firefox */
+}
+
+#main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#main .column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#main .one {
+	width: 50%;
+	background-image: url(../img/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+    justify-content: flex-end;
+}
+
+#main .two {
+	width: 50%;
+	display: flex;
+    justify-content: flex-start;
+}
+
+#main .row{
+	position: relative;
+	width: 50%;
+	height: 80vh;
+}
+
+#main .first{
+	background-color: rgba(255, 255, 255, 0.7);
+	z-index: 9;
+}
+
+#main .first h2{
+	font-family: Fairview;
+	color: var(--rosa);
+	font-size: 400%;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1rem;
+}
+
+#main .second{
+	box-shadow: 1px 0px 15px black
+}
+
+#main .second h2{
+	font-family: Fairview;
+	color: var(--azul);
+	font-size: 400%;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1rem;
+}
+
+#main .dicentes {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#main .dicente {
+	margin: 1rem;
+	width: 50%;
+}
+
+#main .dicentes img {
+	width: 100%;
+}
+
+#main .dicentes h3 {
+	width: 100%;
+	font-family: Fairview;
+	color: var(--rosa);
+	font-size: 200%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#main .logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#main .logo img {
+	width: 80%;
+}
+
+#main .formulario {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+#main form {
+	width: 90%;
+}
+
+#main form .alvo {
+	width: 100%;
+	padding: 1rem;
+	color: var(--rosa);
+	background: var(--azul);
+	font-size: 200%;
+	border-radius: 0.5rem;
+}
+
+#main .resultado {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0.5rem 0;
+}
+  #main .resultado h3 {
+    color: var(--rosa);
+  }
+
+#main .results {
+	width: 90%;
+	height: 10vh;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--azul);
+	margin: 0.5rem 0 0.5rem 0;
+  font-size: 175%;
+}
+  #main .results ul {
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;
+  }
+    #main .results ul li {
+      list-style: none;
+      margin: .5rem;
+    }
+
+
+#main .button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+#main .button button {
+	padding: 0.2rem 0.5rem;
+	font-size: 200%;
+	width: 40%;
+	border-radius: 0.2rem;
+	cursor: pointer;
+}
+
+#main .button .azul {
+	background: var(--azul);
+	color: var(--rosa);
+	transition: ease-in-out .4s;
+}
+
+#main .button .azul:hover{
+	background: white;
+	color: var(--azul);
+}
+
+#main .button .rosa {
+	background: var(--rosa);
+	color: var(--azul);
+	transition: ease-in-out .4s;
+}
+
+#main .button .rosa:hover{
+	background: white;
+	color: var(--rosa);
+}

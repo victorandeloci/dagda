@@ -1,0 +1,11 @@
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\bin\Debug\AssociacaoBidirecional.exe.config
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\bin\Debug\AssociacaoBidirecional.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\bin\Debug\AssociacaoBidirecional.pdb
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\obj\Debug\AssociacaoBidirecional.csprojAssemblyReference.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\obj\Debug\AssociacaoBidirecional.Form1.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\obj\Debug\AssociacaoBidirecional.form_DepAgreAssoc.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\obj\Debug\AssociacaoBidirecional.Properties.Resources.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\obj\Debug\AssociacaoBidirecional.csproj.GenerateResource.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\obj\Debug\AssociacaoBidirecional.csproj.CoreCompileInputs.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\obj\Debug\AssociacaoBidirecional.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\AssociacaoBidirecional\AssociacaoBidirecional\obj\Debug\AssociacaoBidirecional.pdb

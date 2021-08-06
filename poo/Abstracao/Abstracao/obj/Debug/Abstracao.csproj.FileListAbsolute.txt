@@ -1,0 +1,10 @@
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Abstracao\Abstracao\bin\Debug\Abstracao.exe.config
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Abstracao\Abstracao\bin\Debug\Abstracao.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Abstracao\Abstracao\bin\Debug\Abstracao.pdb
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Abstracao\Abstracao\obj\Debug\Abstracao.csprojAssemblyReference.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Abstracao\Abstracao\obj\Debug\Abstracao.Form1.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Abstracao\Abstracao\obj\Debug\Abstracao.Properties.Resources.resources
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Abstracao\Abstracao\obj\Debug\Abstracao.csproj.GenerateResource.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Abstracao\Abstracao\obj\Debug\Abstracao.csproj.CoreCompileInputs.cache
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Abstracao\Abstracao\obj\Debug\Abstracao.exe
+C:\Users\Victor Andeloci\Documents\Fatec\poo\Abstracao\Abstracao\obj\Debug\Abstracao.pdb

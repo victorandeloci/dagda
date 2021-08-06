@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Conversor de Bases</string>
+    <string name="valorVazio">Não foi inserido nenhum valor!</string>
+    <string name="coverter">CONVERTER</string>
+    <string name="baseNaoSelecionada">Selecione uma base para conversão!</string>
+    <string name="apagar"><![CDATA[<]]></string>
+    <string name="valor_invalido">Valor inválido ou muito grande!</string>
+    <string name="note">O app ainda está em desenvolvimento, então, nos informe os erros que encontrar!</string>
+</resources>
